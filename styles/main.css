@@ -1,0 +1,982 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Header: Navbar */
+
+.sticky-nav {
+  display: block;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  background-color: rgba(114, 117, 89, .9);
+  height: 50px;
+  width: 100%;
+}
+
+.sticky-nav li {
+  display: block;
+  float: right;
+  padding: 0 2em;
+}
+
+.sticky-nav ul {
+  list-style-type: none;
+  margin: 0 4em;
+  padding: 0;
+  overflow: hidden;
+}
+
+.sticky-nav a {
+  display: block;
+  padding: 0px 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+li a:hover {
+  background-color: #fff;
+}
+
+
+/* Header: Hero */
+
+
+
+
+.hero-section {
+  height: 85vh;
+  width: auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .9), transparent), url(../images/IMG_2672.jpeg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.hero-img {
+  color: #D3D3CE;
+  padding-left: 7em;
+}
+
+.statement-name {
+  font-size: 4em;
+}
+
+.mission-text {
+  font-size: 1.7em;
+  width: 60%;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+/* Home Page - Main Section */
+
+#about-section {
+  background-image: url(../images/paper_fibers.png);
+}
+
+.preview {
+  display: flex;
+  max-height: 775px;
+  height: 70vh;
+  padding: 75px;
+}
+
+.cloud-flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 75px;
+}
+
+.about-flexbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 75px;
+  width: 50%
+}
+
+.container-about-pic {
+  width: 50%;
+  text-align: end;
+}
+
+.about-pic {
+  height: -webkit-fill-available;
+  max-height: 500px;
+}
+
+
+/* Katalogus (Cloud) Case Study */
+
+
+/* Cloud - Overview tab */
+
+.cloud-overview {
+  display: grid;
+  grid-template-columns: 1fr
+}
+
+.cloud-hero {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cloud-overview-lists {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cloud-deliverables>ul {
+  column-count: 2;
+  column-gap: 1em;
+}
+
+.cloud-overview-intro {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cloud-comp-analysis {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto auto auto auto;
+}
+
+.cloud-comp-analysis-title {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.cloud-comp-analysis-overview {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.cloud-comp-analysis-icloud {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.cloud-comp-analysis-gdrive {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.cloud-comp-analysis-pinterest {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.cloud-comp-analysis_button {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+/* 
+.cloud-overview-intro {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+} */
+
+
+/* .cloud-wrapper {
+  margin: 11em 3em 3em 3em;
+}
+
+.cloud-hero {
+  display: flex;
+}
+
+.cloud-hero-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.cloud-hero-text {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 4.5em;
+}
+
+.cloud-hero {
+  height: 400px;
+}
+
+.cloud-overview-lists {
+  height: 190px;
+  display: flex;
+  margin-top: 1em;
+  justify-content: center;
+}
+
+.cloud-roles {
+  margin: 0 2em 0 2em;
+}
+
+.cloud-tools {
+  margin: 0 2em 0 2em;
+}
+
+.cloud-deliverables {
+  margin: 0 2em 0 2em;
+}
+
+.cloud-deliverables>ul {
+  column-count: 2;
+  column-gap: 1em;
+}
+
+.cloud-overview-intro {
+  height: 350px;
+  display: grid;
+  grid-template-columns: (3, 1fr);
+  column-gap: 7.75em;
+  margin: 0 4em 0 4em;
+}
+
+.cloud-summary {
+  grid-column-start: 1;
+}
+
+.cloud-problem {
+  grid-column-start: 2;
+}
+
+.cloud-solution {
+  grid-column-start: 3;
+}
+*/
+
+/* Cloud - Discovery & Research tab */
+/* 
+.cloud-comp-analysis {
+  height: 680px;
+  display: grid;
+  row-gap: 2em;
+  align-items: center;
+  justify-items: center;
+  padding: 0 4.5em 0 4.5em;
+} */
+/* 
+.cloud-comp-analysis-overview {
+  grid-row-start: 1;
+  height: auto;
+  width: 50%;
+}
+
+.cloud-comp-analysis-companies {
+  grid-row-start: 2;
+  display: grid;
+  column-gap: 4em;
+  height: auto;
+}
+
+.cloud-comp-analysis-icloud {
+  grid-column-start: 1;
+  display: grid;
+  row-gap: 1em;
+} */
+/* 
+.cloud-comp-analysis-gdrive {
+  grid-column-start: 2;
+  display: grid;
+  row-gap: 1em;
+}
+
+.cloud-comp-analysis-pinterest {
+  grid-column-start: 3;
+  display: grid;
+  row-gap: 1em;
+}
+
+.cloud-comp-analysis_button {
+  grid-row-start: 3;
+  height: auto;
+} */
+
+/* .cloud-user-research {
+  height: 520px;
+  display: grid;
+  grid-template-columns: 2 50%;
+  grid-template-rows: 2em 25% auto;
+  padding: 0 4.5em 0 4.5em;
+  row-gap: 1em;
+} */
+
+.cloud-user-research {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+.cloud-user-research_title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.cloud-user-research_summary {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  /* max-width: 450px; */
+}
+
+.cloud-user-research_key-insights {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  display: grid;
+}
+
+.cloud-user-insights {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.cloud-user-insight_perc {
+  grid-column-start: 1;
+}
+
+.cloud-user-insight_desc {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+.cloud-user-research_button {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+/* 
+.cloud-user-insight-1_perc {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.cloud-user-insight-1_desc {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+}
+
+.cloud-user-insight-2_perc {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.cloud-user-insight-2_desc {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 3;
+}
+
+.cloud-user-insight-3_perc {
+  grid-column-start: 1;
+  grid-row-start: 4;
+}
+
+.cloud-user-insight-3_desc {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 4;
+}
+
+.cloud-user-insight-4_perc {
+  grid-column-start: 1;
+  grid-row-start: 5;
+}
+
+.cloud-user-insight-4_desc {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 5;
+}
+
+.cloud-user-insight-5_perc {
+  grid-column-start: 1;
+  grid-row-start: 6;
+}
+
+.cloud-user-insight-5_desc {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 6;
+} */
+
+
+/* Cloud - Analysis tab */
+
+/* .cloud-personas {
+  height: 760px;
+} */
+
+.cloud-personas {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto auto auto auto;
+}
+
+.cloud-personas-title {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.cloud-personas-summary {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.cloud-personas-rebecca {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.cloud-personas-marc {
+  grid-column-start: 8;
+  grid-column-end: 13;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.cloud-personas_button {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+/* 
+.cloud-stories {
+  height: 430px;
+  margin: 0 8.5em 0 8.5em;
+}
+
+.cloud-stories-content {
+  display: flex;
+  justify-content: center;
+}
+
+.cloud-stories-title {
+  text-align: center;
+}
+
+.cloud-stories-text {
+  width: 50%;
+}
+
+.cloud-stories-examples {
+  width: 50%;
+  padding-left: 7em;
+}
+
+.cloud-stories_button {
+  text-align: center;
+} */
+
+.cloud-stories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
+
+.cloud-stories-title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.cloud-stories-content {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.cloud-stories-examples {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.cloud-stories_button {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+/* 
+.cloud-flows {
+  height: 420px;
+  margin: 0 6.5em 0 6.5em;
+}
+
+.cloud-flows-content {
+  display: flex;
+  justify-content: center;
+}
+
+.cloud-flows-title {
+  text-align: center;
+}
+
+.cloud-flows-text {
+  width: 40%;
+  margin-right: 3em;
+}
+
+.cloud-flows-text>p {
+  max-width: 520px;
+}
+
+.cloud-flows-img {
+  width: 40%;
+  margin-left: 3em;
+}
+
+.cloud-flows_button {
+  text-align: center;
+} */
+
+.cloud-flows {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
+
+.cloud-flows-title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.cloud-flows-text {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.cloud-flows-img {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.cloud-flows_button {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+/* Cloud - Visual Design tab */
+/* 
+.cloud-wireframes {
+  height: 740px;
+}
+
+.cloud-wireframes-title {
+  text-align: center;
+}
+
+.cloud-wireframes-content {
+  display: flex;
+  justify-content: center;
+  margin: 0 5em 0 5em;
+}
+
+.cloud-wireframes-text {
+  width: 50%;
+  align-self: center;
+  justify-items: center;
+}
+
+.cloud-wireframes-text>p {
+  max-width: 545px;
+}
+
+
+.cloud-wireframes-img {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 1em;
+  column-gap: 1em;
+  justify-items: center;
+}
+
+.cloud-wireframes-img-1 {
+  width: 267px;
+  height: 300px;
+  background-image: url("http://lorempixel.com/350/260");
+}
+
+.cloud-wireframes-img-2 {
+  width: 267px;
+  height: 300px;
+  background-image: url("http://lorempixel.com/350/260");
+}
+
+.cloud-wireframes-img-3 {
+  width: 267px;
+  height: 300px;
+  background-image: url("http://lorempixel.com/350/260");
+}
+
+.cloud-wireframes-img-4 {
+  width: 267px;
+  height: 300px;
+  background-image: url("http://lorempixel.com/350/260");
+}
+
+.cloud-wireframes_button {
+  text-align: center;
+} */
+
+.cloud-wireframes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+.cloud-wireframes-title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.cloud-wireframes-text {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+.cloud-wireframes-img {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+.cloud-wireframes_button {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+/* 
+.cloud-mockups {
+  height: 830px;
+}
+
+.cloud-mockups-title {
+  text-align: center;
+}
+
+.cloud-mockups-text-1 {
+  column-count: 2;
+  column-gap: 3em;
+  max-width: 1048px;
+  margin: 0 auto;
+}
+
+.cloud-mockups-img {
+  text-align: center;
+  margin: 1em;
+}
+
+.cloud-mockups-text-2 {
+  column-count: 2;
+  column-gap: 3em;
+  max-width: 1048px;
+  margin: 0 auto;
+}
+ */
+
+.cloud-mockups {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+}
+
+.cloud-mockups-title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.cloud-mockups-text-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  column-count: 2;
+  column-gap: 1em;
+}
+
+.cloud-mockups-img {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.cloud-mockups-text-2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  column-count: 2;
+  column-gap: 1em;
+}
+
+/* Cloud - Prototyping & Testing tab */
+
+/* .cloud-usability {
+  height: 950px;
+}
+
+.cloud-usability-title {
+  text-align: center;
+}
+
+.cloud-usability-content {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.cloud-usability_card-1 {
+  width: 45%;
+}
+
+.cloud-usability_card-2 {
+  width: 45%;
+}
+
+.cloud-usability_card-tasks {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cloud-usability_card-img {
+  text-align: center;
+  margin: 1em;
+} */
+
+.cloud-usability {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+.cloud-usability-title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.cloud-usability_card-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.cloud-usability_card-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+/* .cloud-preference {
+  height: 840px;
+}
+
+.cloud-preference-title {
+  text-align: center;
+}
+
+.cloud-preference-text-1 {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.cloud-preference-img {
+  text-align: center;
+  margin: 1em;
+}
+
+.cloud-preference-text-2 {
+  max-width: 500px;
+  margin: 0 auto;
+} */
+
+
+
+
+/* Cloud - Branding tab */
+
+/* .cloud-branding {
+  height: 800px;
+}
+
+.cloud-branding-text-1 {
+  column-count: 2;
+  column-gap: 3em;
+  max-width: 1048px;
+  margin: 0 auto;
+}
+
+.cloud-branding-img_container {
+  display: flex;
+  justify-content: center;
+}
+
+.cloud-branding-img {
+  text-align: center;
+  margin: 1em 3em 1em 3em;
+}
+
+.cloud-branding-text-2 {
+  max-width: 500px;
+  margin: 0 auto;
+} */
+
+.cloud-branding {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+.cloud-branding-title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.cloud-branding-text-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  column-count: 2;
+  column-gap: 1em;
+}
+
+.cloud-branding-img1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.cloud-branding-img2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.cloud-branding-text-2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.cloud-branding_button {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+
+
+
+/* Cloud - Conclusion tab */
+
+.cloud-conclusion {
+  height: 870px;
+}
+
+.cloud-conclusion-text {
+  column-count: 2;
+  column-gap: 3em;
+}
+
+
+
+
+/* Footer */
+
+footer {
+  background-image: url(../images/paper_fibers.png);
+  height: 400px;
+  padding: 50px 150px 50px 150px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

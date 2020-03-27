@@ -22,7 +22,7 @@
   <title>Case Study | Katalogus</title>
 
   <!-- Custom Styles -->
-  <link href="../styles/reset.css" rel="stylesheet">
+  <link href="../styles/normalize.css" rel="stylesheet">
   <link href="../styles/main.css" rel="stylesheet">
 
 
@@ -44,7 +44,7 @@
     </nav>
 
     <nav class="case-study-nav">
-
+      <!--this will be tab-style navigation to jump to individual sections of case study-->
 
     </nav>
 
@@ -64,6 +64,7 @@
           <button class="cloud-button cloud-button_hero-prototype">View Figma Prototype</button>
         </div>
       </div>
+
 
       <div class="cloud-overview-lists">
 
@@ -134,49 +135,52 @@
 
       <section class="cloud-comp-analysis">
 
-        <div class="cloud-comp-analysis-overview">
+        <div class="cloud-comp-analysis-title">
           <h2>Competitive Analysis</h2>
+        </div>
+        <div class="cloud-comp-analysis-overview">
           <p>I was very worried that there would really be no true solution to bringing in another player to the cloud
             storage marketplace. It is already saturated with big-hitters that can easily sweep a newcomer underwater.
             However, I was quick to find out that there are some holes in each of the platforms.</p>
         </div>
 
-        <div class="cloud-comp-analysis-companies">
-          <div class="cloud-comp-analysis-icloud">
-            <img src="http://lorempixel.com/350/50 icloud-pic">
-            <div class="icloud-good">What iCloud does best is being able to be used virtually in the background.
-              Content is saved to
-              individuals’ phone or computer, which is auto-pushed to the cloud.</div>
-            <div class="icloud-opp">Where iCloud falls short is the lack of full-collaboration capabilities between
-              Apple and non-Apple
-              users.</div>
-          </div>
 
-          <div class="cloud-comp-analysis-gdrive">
-            <img src="http://lorempixel.com/350/50 gdrive-pic">
-            <div class="gdrive-good">What Google Drive does best (beyond having a strong parent company reputation to
-              back it) is
-              collaboration.</div>
-            <div class="gdrive-opp">Their interface can feel clunky and there are often formatting issues from uploaded
-              items.</div>
-          </div>
-
-          <div class="cloud-comp-analysis-pinterest">
-            <img src="http://lorempixel.com/350/50 pinterest-pic">
-            <div class="pinterest-good">Pictures / articles can be saved from anywhere on the web and easily organized
-              into personalized
-              folders
-            </div>
-            <div class="pinterest-opp">Pinterest is primarily known for saving content found on the web, so it is easy
-              for users to
-              pigeon-hole
-              the entire platform and not use its other features. </div>
-          </div>
-
+        <div class="cloud-comp-analysis-icloud">
+          <img src="http://lorempixel.com/350/50 icloud-pic">
+          <div class="icloud-good">What iCloud does best is being able to be used virtually in the background.
+            Content is saved to
+            individuals’ phone or computer, which is auto-pushed to the cloud.</div>
+          <div class="icloud-opp">Where iCloud falls short is the lack of full-collaboration capabilities between
+            Apple and non-Apple
+            users.</div>
         </div>
 
+        <div class="cloud-comp-analysis-gdrive">
+          <img src="http://lorempixel.com/350/50 gdrive-pic">
+          <div class="gdrive-good">What Google Drive does best (beyond having a strong parent company reputation to
+            back it) is
+            collaboration.</div>
+          <div class="gdrive-opp">Their interface can feel clunky and there are often formatting issues from uploaded
+            items.</div>
+        </div>
+
+        <div class="cloud-comp-analysis-pinterest">
+          <img src="http://lorempixel.com/350/50 pinterest-pic">
+          <div class="pinterest-good">Pictures / articles can be saved from anywhere on the web and easily organized
+            into personalized
+            folders
+          </div>
+          <div class="pinterest-opp">Pinterest is primarily known for saving content found on the web, so it is easy
+            for users to
+            pigeon-hole
+            the entire platform and not use its other features. </div>
+        </div>
+
+
+
         <div class="cloud-comp-analysis_button">
-          <button class="cloud-button cloud-button_comp-analysis">View Full Analysis</button> </div>
+          <button class="cloud-button cloud-button_comp-analysis">View Full Analysis</button>
+        </div>
 
       </section>
 
@@ -301,34 +305,33 @@
         <div class="cloud-stories-title">
           <h2>User Stories</h2>
         </div>
-        <div class="cloud-stories-content">
-          <div class="cloud-stories-text">
-            <p>Keeping Rebecca and Marc in mind, and going off the results from both the survey and the competitive
-              analysis, I
-              crafted the User Stories. The high priority stories were ones that were absolute base-level attributes of
-              the
-              platform
-              that would be required even with all the bells and whistles removed. From there, medium-priority stories
-              were
-              created,
-              defined as not being basic necessities of the platform but stories that still would be driving
-              forces/features
-              behind
-              acquiring and maintaining loyalty.</p>
-          </div>
-
-          <div class="cloud-stories-examples">
-            <ul>As a new user, I want to:
-              <li>Create an account</li>
-              <li>Learn about the site's features and benefits</li>
-            </ul>
-            <ul>As a returning user, I want to:
-              <li>Upload a file from my computer</li>
-              <li>Save an article / recipe / etc. from the internet</li>
-              <li>Share a file with someone</li>
-            </ul>
-          </div>
+        <div class="cloud-stories-text">
+          <p>Keeping Rebecca and Marc in mind, and going off the results from both the survey and the competitive
+            analysis, I
+            crafted the User Stories. The high priority stories were ones that were absolute base-level attributes of
+            the
+            platform
+            that would be required even with all the bells and whistles removed. From there, medium-priority stories
+            were
+            created,
+            defined as not being basic necessities of the platform but stories that still would be driving
+            forces/features
+            behind
+            acquiring and maintaining loyalty.</p>
         </div>
+
+        <div class="cloud-stories-examples">
+          <ul>As a new user, I want to:
+            <li>Create an account</li>
+            <li>Learn about the site's features and benefits</li>
+          </ul>
+          <ul>As a returning user, I want to:
+            <li>Upload a file from my computer</li>
+            <li>Save an article / recipe / etc. from the internet</li>
+            <li>Share a file with someone</li>
+          </ul>
+        </div>
+
 
         <div class="cloud-stories_button"><button class="cloud-button cloud-button_stories">View All Stories</button>
         </div>
@@ -339,19 +342,19 @@
         <div class="cloud-flows-title">
           <h2>User Flows</h2>
         </div>
-        <div class="cloud-flows-content">
-          <div class="cloud-flows-text">
-            <p>With those stories in mind, as well as the insights gained from the user survey and competitive analysis,
-              I
-              planned out flows that would feel native to each individual using the platform. It was important to make
-              sure that each user story had a matching flow and that the flow was intuitive. I spent a lot of time with
-              multiple different competitors to understand their flows and shadow consistent themes.</p>
-          </div>
 
-          <div class="cloud-flows-img">
-            <img src="http://lorempixel.com/350/260">
-          </div>
+        <div class="cloud-flows-text">
+          <p>With those stories in mind, as well as the insights gained from the user survey and competitive analysis,
+            I
+            planned out flows that would feel native to each individual using the platform. It was important to make
+            sure that each user story had a matching flow and that the flow was intuitive. I spent a lot of time with
+            multiple different competitors to understand their flows and shadow consistent themes.</p>
         </div>
+
+        <div class="cloud-flows-img">
+          <img src="http://lorempixel.com/350/260">
+        </div>
+
         <div class="cloud-flows_button">
           <button class="cloud-button cloud-button_flows">View All Flows</button>
         </div>
@@ -373,29 +376,29 @@
             Wireframes
           </h2>
         </div>
-        <div class="cloud-wireframes-content">
-          <div class="cloud-wireframes-text">
-            <p>
-              I started the process of wireframing with sketches to quickly feel out how each flow would look, screen to
-              screen,
-              including multiple alternatives. It was important during this point to also research how different flows
-              were handled in
-              many different apps and websites, including that of competitors, to ensure an intuitive design that was
-              not
-              too foreign.
-              From the sketches, I produced digital wireframes to give a more realistic feel before moving on to
-              usability
-              testing.
-            </p>
-          </div>
 
-          <div class="cloud-wireframes-img">
-            <div class="cloud-wireframes-img-1"></div>
-            <div class="cloud-wireframes-img-2"></div>
-            <div class="cloud-wireframes-img-3"></div>
-            <div class="cloud-wireframes-img-4"></div>
-          </div>
+        <div class="cloud-wireframes-text">
+          <p>
+            I started the process of wireframing with sketches to quickly feel out how each flow would look, screen to
+            screen,
+            including multiple alternatives. It was important during this point to also research how different flows
+            were handled in
+            many different apps and websites, including that of competitors, to ensure an intuitive design that was
+            not
+            too foreign.
+            From the sketches, I produced digital wireframes to give a more realistic feel before moving on to
+            usability
+            testing.
+          </p>
         </div>
+
+        <div class="cloud-wireframes-img">
+          <div class="cloud-wireframes-img-1">test1</div>
+          <div class="cloud-wireframes-img-2">test2</div>
+          <div class="cloud-wireframes-img-3">test3</div>
+          <div class="cloud-wireframes-img-4">test4</div>
+        </div>
+
 
         <div class="cloud-wireframes_button">
           <button class="cloud-button cloud-button_wireframes">View All Wireframes</button>
@@ -417,7 +420,7 @@
             screens, I realized that there was a potential accessibility issue with the color scheme chosen. That was
             tested on a
             third party site and subsequently failed.
-
+            <br><br>
             I used the same general color (maroon/purple) to signify elegance and power but also added in orange for a
             hint of
             excitement. With those two being the main colors, I chose complementary colors that aligned with a beautiful
@@ -438,7 +441,7 @@
             becomes difficult to read. With that knowledge, the font pairing choice was changed to Oswald and Montserrat
             to maintain
             hierarchy while also having a similar font style.
-
+            <br><br>
             Based on the information architecture I had in mind and the feedback received, I followed the minor third
             typography
             scale for the landing page and the major second scale for the rest of the platform. The landing page starts
@@ -458,57 +461,61 @@
           <div class="cloud-usability-title">
             <h2>Usability Testing</h2>
           </div>
-          <div class="cloud-usability-content">
-            <div class="cloud-usability_card-1">
-              <div class="cloud-usability_card-tasks">
-                <ul>Round One Tasks:
-                  <li>1. Create a new account</li>
-                  <li>2. Add a folder to the cloud</li>
-                  <li>3. Add a tag to a file</li>
-                </ul>
-              </div>
-              <div class="cloud-usability_card-img">
-                <img src="http://lorempixel.com/350/260">
-              </div>
-              <div class="cloud-usability_card-summary">
-                <p>During the first round of usability testing, I asked participants to complete three tasks while
-                  thinking out loud as well as requesting additional feedback on the landing page and desktop. The tasks
-                  were to sign up for an account, add a folder to the cloud and add a tag to a specific file.
-                  Each task was completed successfully by every participant; the only issue with tasks was the
-                  participants’ ability to understand how to use the prototype (most wanted to click the button to
-                  create
-                  the account before actually typing in information) but I did get valuable feedback about the dashboard
-                  itself.
-                  One participant noted that she had just signed up for an account and yet there are already a bunch of
-                  files loaded in -- this feedback reminded me to include a blank state screen for the dashboard!</p>
-              </div>
-            </div>
 
-            <div class="cloud-usability_card-2">
-              <div class="cloud-usability_card-tasks">
-                <ul>Round Two Tasks:
-                  <li>1. Create a new account</li>
-                  <li>2. Add/Save a URL to their cloud</li>
-                  <li>3. Favorite/Star a folder</li>
-                </ul>
-              </div>
-              <div class="cloud-usability_card-img">
-                <img src="http://lorempixel.com/350/260">
-              </div>
-              <div class="cloud-usability_card-summary">
-                <p>During the second round of usability testing, both in-person and remote usability tests were
-                  conducted,
-                  and the project was submitted to a design critique multiple times to allow for further iterations and
-                  improvement.
-                  In the design critique, it was recommended to use a type scale in order to choose the best size
-                  combinations, as well as recommended trying out a different font combination since the stroke weight
-                  of
-                  Cormorant cause legibility issues as it got smaller.
-                  In the usability tests, my color choices were enforced by the participants. They also agreed that some
-                  type on the landing page could go larger to be more impactful.</p>
-              </div>
+          <div class="cloud-usability_card-1">
+            <div class="cloud-usability_card-tasks">
+              <ul>Round One Tasks:
+                <li>1. Create a new account</li>
+                <li>2. Add a folder to the cloud</li>
+                <li>3. Add a tag to a file</li>
+              </ul>
+            </div>
+            <div class="cloud-usability_card-img">
+              <img src="http://lorempixel.com/350/260">
+            </div>
+            <div class="cloud-usability_card-summary">
+              <p>During the first round of usability testing, I asked participants to complete three tasks while
+                thinking out loud as well as requesting additional feedback on the landing page and desktop. The tasks
+                were to sign up for an account, add a folder to the cloud and add a tag to a specific file.
+                <br><br>
+                Each task was completed successfully by every participant; the only issue with tasks was the
+                participants’ ability to understand how to use the prototype (most wanted to click the button to
+                create
+                the account before actually typing in information) but I did get valuable feedback about the dashboard
+                itself.
+                <br><br>
+                One participant noted that she had just signed up for an account and yet there are already a bunch of
+                files loaded in -- this feedback reminded me to include a blank state screen for the dashboard!</p>
             </div>
           </div>
+
+          <div class="cloud-usability_card-2">
+            <div class="cloud-usability_card-tasks">
+              <ul>Round Two Tasks:
+                <li>1. Create a new account</li>
+                <li>2. Add/Save a URL to their cloud</li>
+                <li>3. Favorite/Star a folder</li>
+              </ul>
+            </div>
+            <div class="cloud-usability_card-img">
+              <img src="http://lorempixel.com/350/260">
+            </div>
+            <div class="cloud-usability_card-summary">
+              <p>During the second round of usability testing, both in-person and remote usability tests were
+                conducted,
+                and the project was submitted to a design critique multiple times to allow for further iterations and
+                improvement.
+                <br><br>
+                In the design critique, it was recommended to use a type scale in order to choose the best size
+                combinations, as well as recommended trying out a different font combination since the stroke weight
+                of
+                Cormorant cause legibility issues as it got smaller.
+                <br><br>
+                In the usability tests, my color choices were enforced by the participants. They also agreed that some
+                type on the landing page could go larger to be more impactful.</p>
+            </div>
+          </div>
+
         </section>
 
         <section class="cloud-preference">
@@ -551,22 +558,22 @@
           <p>Since a wide variety of individuals were being targeted with this platform, with the focus being saving,
             organizing, and sharing, I started with a mindmap to see what ideas came off of that. Two words in
             particular really stood out: catalogue and inventory, which then opened the flood gates for logo ideas.
-
+            <br><br>
             When considering logos, I mimicked imagery of inventory tags, clouds, data groupings and paperclips. The
             paperclip idea was what continued -- a sturdy tool to hold together all your paperwork was the perfect idea
             for a sturdy platform to hold all your online content.
           </p>
         </div>
 
-        <div class="cloud-branding-img_container">
-          <div class="cloud-branding-img">
-            <img src="http://lorempixel.com/350/260">
-          </div>
 
-          <div class="cloud-branding-img">
-            <img src="http://lorempixel.com/350/260">
-          </div>
+        <div class="cloud-branding-img1">
+          <img src="http://lorempixel.com/350/260">
         </div>
+
+        <div class="cloud-branding-img2">
+          <img src="http://lorempixel.com/350/260">
+        </div>
+
 
         <div class="cloud-branding-text-2">
           <p>From there, I created a moodboard that displayed pictures of organization as well as companionship.
@@ -575,6 +582,9 @@
             how it has
             been chosen to remain. The only time Melgrim is used is with the company name itself.</p>
         </div>
+
+        <div class="cloud-branding_button">
+          <button class="cloud-button cloud-button_branding">View Brand Guidelines</button>
       </section>
 
 
@@ -594,7 +604,7 @@
             was quick to find out that there are some holes in each of the platforms that would allow someone else to
             come in and
             succeed.
-
+            <br><br>
             I focused a lot during my user research on keeping a flow in the survey while also keeping it short and
             simple. If done
             again, I would have dropped the idea of questions flowing together, understanding that each question is
@@ -602,7 +612,7 @@
             in-and-of itself, and asked more well-rounded questions during my user research stage. I still had great
             information to
             go off of, but could have had even better research had I taken the time to do so.
-
+            <br><br>
             I learned a great deal from this project, including the need to test font choices at all scales as well as
             choosing a
             color scheme with overlapping colors. Mistakes made early on were that the font choice did not scale well
@@ -612,7 +622,7 @@
             buttons and other overlapping designs. I learned the importance of learning how to use “components” when
             designing
             rather than changing something in each frame when an update was made (yikes, I know).
-
+            <br><br>
             This project, more than anything, made me painfully aware of both research and properly using the tool at
             hand. I
             believe wholeheartedly that research done properly at the front end will significantly improve the product
@@ -620,7 +630,7 @@
             end (including stopping critical errors from being made that completely wastes time and effort!). I also see
             the power
             that design tools have and how valuable they can be in making design efficient, when used properly.
-
+            <br><br>
             I am truly proud of this project all together, with it being my first project completed from start to
             finish, I am most
             proud of the persistence I had while working on the mockups. There were many times I was truly stuck, unable
@@ -632,7 +642,7 @@
             where I felt like there was no light at the end of the tunnel, but I kept chugging along and now have a
             completed
             project that I can proudly put my name on!
-
+            <br><br>
             I’d also like to thank you for taking the time to read / scroll / skim (whichever!) my case study. Please do
             not
             hesitate to reach out with any questions, I am more than happy to discuss any detail of this project.
@@ -657,7 +667,7 @@
       <a href="https://twitter.com/KatieJo_Snead"><i class=" fab fa-twitter"></i></a>
       <a href="https://www.linkedin.com/in/katiesnead/"><i class=" fab fa-linkedin-in"></i></a>
       <a href="http://www.github.com/katiesnead"><i class="fab fa-github"></i></a>
-      <h6>©2019 | Designed and developed by Katie Snead</h6>
+      <h6>©2020 | Designed and developed by Katie Snead</h6>
     </div>
   </footer>
 
