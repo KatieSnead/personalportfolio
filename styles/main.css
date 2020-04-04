@@ -1,3 +1,189 @@
+@font-face {
+  font-family: 'biryaniblack';
+  src: url('../styles/fonts/webfontkit-20200403-153442/biryani-black-webfont.woff2') format('woff2'),
+    url('../styles/fonts/webfontkit-20200403-153442/biryani-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'biryanibold';
+  src: url('../styles/fonts/webfontkit-20200403-153442/biryani-bold-webfont.woff2') format('woff2'),
+    url('../styles/fonts/webfontkit-20200403-153442/biryani-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'biryaniextrabold';
+  src: url('../styles/fonts/webfontkit-20200403-153442/biryani-extrabold-webfont.woff2') format('woff2'),
+    url('../styles/fonts/webfontkit-20200403-153442/biryani-extrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'biryaniextralight';
+  src: url('../styles/fonts/webfontkit-20200403-153442/biryani-extralight-webfont.woff2') format('woff2'),
+    url('../styles/fonts/webfontkit-20200403-153442/biryani-extralight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'biryanilight';
+  src: url('../styles/fonts/webfontkit-20200403-153442/biryani-light-webfont.woff2') format('woff2'),
+    url('../styles/fonts/webfontkit-20200403-153442/biryani-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'biryaniregular';
+  src: url('../styles/fonts/webfontkit-20200403-153442/biryani-regular-webfont.woff2') format('woff2'),
+    url('../styles/fonts/webfontkit-20200403-153442/biryani-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'biryanisemibold';
+  src: url('../styles/fonts/webfontkit-20200403-153442/biryani-semibold-webfont.woff2') format('woff2'),
+    url('../styles/fonts/webfontkit-20200403-153442/biryani-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'fira_sansthin';
+  src: url('../styles/fonts/webfontkit-20200403-162736/firasans-thin-webfont.woff2') format('woff2'),
+    url('../styles/fonts/webfontkit-20200403-162736/firasans-thin-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'fira_sanssemibold';
+  src: url('../styles/fonts/webfontkit-20200403-162736/firasans-semibold-webfont.woff2') format('woff2'),
+    url('../styles/fonts/webfontkit-20200403-162736/firasans-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'fira_sansregular';
+  src: url('../styles/fonts/webfontkit-20200403-162736/firasans-regular-webfont.woff2') format('woff2'),
+    url('../styles/fonts/webfontkit-20200403-162736/firasans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'fira_sansmedium';
+  src: url('../styles/fonts/webfontkit-20200403-162736/firasans-medium-webfont.woff2') format('woff2'),
+    url('../styles/fonts/webfontkit-20200403-162736/firasans-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'fira_sanslight';
+  src: url('../styles/fonts/webfontkit-20200403-162736/firasans-light-webfont.woff2') format('woff2'),
+    url('../styles/fonts/webfontkit-20200403-162736/firasans-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'fira_sansextralight';
+  src: url('../styles/fonts/webfontkit-20200403-162736/firasans-extralight-webfont.woff2') format('woff2'),
+    url('../styles/fonts/webfontkit-20200403-162736/firasans-extralight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'fira_sansextrabold';
+  src: url('../styles/fonts/webfontkit-20200403-162736/firasans-extrabold-webfont.woff2') format('woff2'),
+    url('../styles/fonts/webfontkit-20200403-162736/firasans-extrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'fira_sansbold';
+  src: url('../styles/fonts/webfontkit-20200403-162736/firasans-bold-webfont.woff2') format('woff2'),
+    url('../styles/fonts/webfontkit-20200403-162736/firasans-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+
+@font-face {
+  font-family: 'fira_sansblack';
+  src: url('../styles/fonts/webfontkit-20200403-162736/firasans-black-webfont.woff2') format('woff2'),
+    url('../styles/fonts/webfontkit-20200403-162736/firasans-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 * {
   box-sizing: border-box;
 }
@@ -40,9 +226,6 @@ li a:hover {
 
 
 /* Header: Hero */
-
-
-
 
 .hero-section {
   height: 85vh;
@@ -113,11 +296,63 @@ h3 {
 /* Katalogus (Cloud) Case Study */
 
 
+.cloud-wrapper {
+  margin: 4em;
+}
+
+h2 {
+  font-family: 'fira_sanslight', Arial,
+    Helvetica,
+    sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+h3 {
+  font-family: 'fira_sansregular',
+    Arial,
+    Helvetica,
+    sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 27px;
+  line-height: 22px;
+}
+
+p,
+div,
+li,
+ul {
+  font-family: 'biryaniregular',
+    Arial,
+    Helvetica,
+    sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 32px;
+}
+
 /* Cloud - Overview tab */
 
 .cloud-overview {
   display: grid;
   grid-template-columns: 1fr
+}
+
+.cloud-hero {
+  margin-bottom: 1em;
+}
+
+.cloud-hero-img {
+  place-self: center;
+}
+
+.cloud-hero-text {
+  justify-self: start;
+  align-self: center;
 }
 
 .cloud-hero {
@@ -135,7 +370,21 @@ h3 {
   grid-row-start: 2;
   grid-row-end: 3;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 3em;
+  border-radius: 25px;
+  border: 2px solid #727559;
+  padding: 1em;
+  margin: 1em;
+}
+
+.cloud-overview-intro {
+  margin: 1em 0;
+}
+
+.cloud-deliverables {
+  grid-column-start: 3;
+  grid-column-end: 5;
 }
 
 .cloud-deliverables>ul {
@@ -150,12 +399,14 @@ h3 {
   grid-row-end: 4;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 3em;
 }
 
 .cloud-comp-analysis {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto auto auto auto;
+  grid-column-gap: 3em;
 }
 
 .cloud-comp-analysis-title {
